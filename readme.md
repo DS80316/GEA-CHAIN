@@ -1,32 +1,32 @@
-# gea
-Green Earth Action (GEA) Chain is a modular blockchain open-source software developed  to drive global environmental conservation efforts. It operates on a dual consensus mechanism combining Proof of Authority (PoA) and Proof of Stake (PoS) and establishes a peer-to-peer (P2P) network on top of it. It also includes the construction of a P2P network based on this modular blockchain framework.
+#基伊埃
+绿色地球行动(GEA)链是一个模块化的区块链开源软件，旨在推动全球环境保护工作。它基于结合了授权证明(PoA)和利益证明(PoS)的双重共识机制运行，并在其之上建立了一个对等(P2P)网络。还包括基于该模块化区块链框架的P2P网络的构建。
 
-## Get started
-
-```
-ignite chain serve
-```
-
-`serve` command installs dependencies, builds, initializes, and starts your blockchain in development.
-
-### Configure
-
-Your blockchain in development can be configured with `config.yml`. To learn more, see the [Ignite CLI docs](https://docs.ignite.com).
-
-### Web Frontend
-
-Ignite CLI has scaffolded a Vue.js-based web app in the `vue` directory. Run the following commands to install dependencies and start the app:
+##开始
 
 ```
-cd vue
-npm install
-npm run serve
+点燃链式发球
 ```
 
-The frontend app is built using the `@starport/vue` and `@starport/vuex` packages. For details, see the [monorepo for Ignite front-end development](https://github.com/ignite/web).
+`服务`命令安装依赖项，构建、初始化并启动开发中的区块链。
 
-## Release
-To release a new version of your blockchain, create and push a new tag with `v` prefix. A new draft release with the configured targets will be created.
+###安装ˌ使成形
+
+您正在开发的区块链可以配置为`config.yml`。要了解更多信息，请参阅[Ignite CLI文档](https://docs.ignite.com).
+
+###Web前端
+
+Ignite CLI在中搭建了一个基于Vue.js的web应用程序`某视频剪辑软件`目录。运行以下命令安装依赖项并启动应用程序:
+
+```
+CD 视图
+npm安装
+npm运行服务
+```
+
+前端应用程序是使用`来源:starport/vue`和`来源:starport/vuex`包裹。有关详细信息，请参见[用于Ignite前端开发的monorepo](https://github.com/ignite/web).
+
+##释放；排放；发布
+要发布您的区块链的新版本，请创建并推送一个新标签`v`前缀。将创建一个包含已配置目标的新发布草稿。
 
 ```
 git tag v0.1
